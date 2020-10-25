@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EX.5</title>
+</head>
+
+<body>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>User information</legend>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" /><br />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" /><br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="fName">First name:</label><br />
+            <input type="text" name="fName" id="fName" /><br />
+            <label for="lName">Last name:</label><br />
+            <input type="text" name="lName" id="lName" /><br />
+            <input type="radio" name="sex" id="male" value="male" /><label for="male">Male</label><br />
+            <input type="radio" name="sex" id="female" value="female" /><label for="female">Feale</label><br />
+            <label for="food">Favourite food</label>
+            <select id="food">
+                <option value="Chocolate">Chocolate</option>
+                <option value="Fruits">Fruits</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Potatoes">Potatoes</option>
+                <option value="Other">Other</option>
+            </select>
+
+        </fieldset>
+
+        <input type="submit" value="Register" />
+        <input type="reset" value="Reset" />
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+* {
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.outer {
+  margin: 0 20px;
+
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.outer h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+input[type="search"] {
+  border: none;
+  background-color: #f6f7fd;
+  border-radius: 10px;
+  height: 75%;
+  padding: 5px;
+}
+.inner {
+  margin-top: 0;
+  background: linear-gradient(-100deg, #a2f2f1 0%, #b19afe 100%);
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+.leftBox,
+.rightBox {
+  margin-top: 5px;
+}
+.l {
+  background-color: white;
+  max-width: 18rem;
+}
+#avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 30%;
+}
+.tumbnail-profile {
+  position: relative;
+  background-color: white;
+  padding: 5px;
+}
+.tumbnail-profile h3 {
+  font-size: 12px;
+  text-align: center;
+}
+.info-profile {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  background: #e1e2e7;
+  padding: 5px;
+}
+#sec-row {
+  color: rgb(68, 191, 240);
+}
+#log-out {
+  border: 1px rgb(68, 191, 240) solid;
+  padding: 5px;
+  border-radius: 20px;
+  height: 50%;
+  margin-top: 10px;
+}
+#log-out:link,
+#log-out:visited {
+  color: rgb(68, 191, 240);
+  text-decoration: none;
+}
+#log-out:hover {
+  color: white;
+  background-color: rgb(68, 191, 240);
+}
+
+.r {
+  background-color: white;
+  margin-left: 5px;
+  max-width: 55rem;
+}
+.right-header img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.right-header {
+  background-color: rgb(222, 238, 245);
+  display: flex;
+  padding: 5px;
+  padding-left: 10px;
+  justify-content: space-around;
+  border: 1px solid #e1e2e7e7;
+}
+.right-header input::placeholder {
+  color: rgb(68, 191, 240);
+}
+.right-header input {
+  background-color: white;
+  border: thin;
+  display: inline-block;
+  border-radius: 20px;
+  width: 90%;
+}
+.right-content {
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+  display: flex;
+}
+.r-avatar-zone img {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.r-content {
+  margin-left: 10px;
+}
+.right-content {
+  border: 1px solid #e1e2e7e7;
+}
+.r-content .r-f-row {
+  display: flex;
+}
+.r-content .r-f-row h6 {
+  margin-left: 5px;
+}
+.react span{
+    margin-right: 5%;
+}
+

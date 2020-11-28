@@ -1,0 +1,85 @@
+@media screen and (max-width: 890px) {
+  * {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 16px;
+    background: linear-gradient(-100deg, #a2f2f1 0%, #b19afe 100%);
+  }
+  #f {
+    display: flex;
+    justify-content: center;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+  }
+  .User {
+    display: flex;
+    background-color: white;
+    max-width: 20rem;
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    padding: 2.5rem;
+    height: 350px;
+  }
+  .startUser {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: -20px;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+  }
+  .end {
+    margin-top: 5px;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  input[type="email"],
+  input[type="password"],input[type="text"] {
+    background-color: white;
+    display: block;
+    max-width: 15.5rem;
+    border: none;
+    border-bottom: 1px solid #a2c2f2;
+    margin-top: 15px;
+  }
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-bottom: 2px solid #a3a2f2;
+  }
+  input[type="submit"] {
+    max-width: 10rem;
+    background-color: #54bdd6;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 45px;
+  }
+  #UserText {
+    color: #848694;
+  }
+  #createAcc {
+    margin-top: 10px;
+    display: block;
+  }
+  #createAcc a {
+    text-decoration: none;
+    font-size: 12px;
+  }
+}

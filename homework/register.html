@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="errors"></div>
     <div id="f">
         <div class="User">
             <form action="./home.html" method="POST">
@@ -19,15 +20,15 @@
                 </div>
                 <div class="middle">
                     <input type="text" name="text" id="text" placeholder="User name" />
-                    <input type="email" name="email" id="email" placeholder="Email" />
+                    <input type="text" name="email" id="email" placeholder="Email" />
                     <input type="password" name="password" id="password" placeholder="Password" />
                 </div>
                 <div class="end">
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Submit" id="btn"/>
                 </div>
             </form>
         </div>
     </div>
 </body>
-
+<script src="./controller.js"></script>
 </html>
